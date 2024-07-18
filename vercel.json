@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/17",
+      "destination": "/https://mylocalbusinesstoolbox.com"
+ },
+ {
+      "source": "/17/(.*)",
+      "destination": "https://mylocalbusinesstoolbox.com/$1"
+ }
+  ]
+}
